@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    color: white;
+}
+a{
+    padding: 20px 80px;
+    width:fit-content;
+    height: fit-content;
+    border: 5px solid white;
+    font-size: 90px;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transition: all 0.5s ;
+}
+a:hover{
+    border: 5px solid red;
+    color: red;
+    animation: shake 0.3s linear 1;
+}
+
+@keyframes shake {
+    10%{
+        translate: 20px;
+    }
+    30%{
+        translate: -20px;
+    }
+    50%{
+        translate: 20px;
+    }
+    70%{
+        translate: -20px;
+    }
+    90%{
+        translate: 20px;
+    }
+    100%{
+        translate: -20px;
+    }
+}
